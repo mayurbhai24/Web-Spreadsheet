@@ -1,0 +1,22 @@
+table {
+    width: 700px;
+    height: 150px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-top: 10%;
+}
+td,th {
+    border: 1px solid black;
+    color: black;
+}
+th {
+    background-color: #d0d0d0;
+}
+td {
+    padding-left: 10px;
+}
+.select {
+    background-color: #e0e0ff;
+}
