@@ -20,3 +20,10 @@ td {
 .select {
     background-color: #e0e0ff;
 }
+
+svg{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content;
+}

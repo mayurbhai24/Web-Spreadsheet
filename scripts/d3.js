@@ -41,6 +41,22 @@ function makeChart(marks) {
             .attr('text-anchor', 'middle')
             .text('Grade Distribution');
 
+    // X-axis Label
+    svg.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .attr("x", width/2)
+        .attr("y", height - 6)
+        .text("Grades");
+
+    // Y-axis Label
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("y", 1)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .text("Frequency (%)");
+        
     // create a group (g) for the bars
     let g = svg.append('g')
                     .attr('transform', `translate(${margin}, ${margin})`);
